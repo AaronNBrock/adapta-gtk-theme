@@ -19,5 +19,19 @@ if test -z "${NOCONFIGURE}"; then
                       --disable-chrome \
                       --disable-plank \
                       --disable-telegram \
+		      \
+                      --disable-cinnamon \
+		      --disable-flashback \
+		      --disable-unity \
+		      --disable-xfce \
+		      --disable-mate \
+		      --disable-openbox \
+		      \
+		      --with-selection_color=#400080 \
+                      --with-accent_color=#9575CD \
+                      --with-suggestion_color=#673AB7 \
+                      --with-destruction_color=#FF5252 \
+		      \
+		      --enable-plank \
                       "$@"
 fi
